@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": false
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -30,7 +33,7 @@
               "src/styles.css",
               "src/assets/plugins/fontawesome-free/css/all.min.css",
               "src/assets/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css",
-              "plugins/icheck-bootstrap/icheck-bootstrap.min.css",
+              "src/assets/plugins/icheck-bootstrap/icheck-bootstrap.min.css",
               "src/assets/plugins/jqvmap/jqvmap.min.css",
               "src/assets/dist/css/adminlte.min.css",
               "src/assets/plugins/overlayScrollbars/css/OverlayScrollbars.min.css",
